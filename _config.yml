@@ -6,28 +6,16 @@ favicon: images/favicon.ico
 version: 2
 
 # Personal info
-name: Brett Harris
-title: Senior Network System Administrator
-email: brett.h@email.co.uk
-website: www.github.com/sproogen/resume-theme
-
+name: Nemanja Jevtic
+title: Junior Full Stack Developer
+email: p17pevt@ionio.gr
+website: https://ionianironist.github.io/cv/
 # Dark Mode (true/false/never)
-darkmode: false
+darkmode: true
 
 # Social links
-twitter_username: facespics
-github_username:  sproogen
-# stackoverflow_username: "00000001"
-# dribbble_username: jekyll
-# facebook_username: jekyll
-# flickr_username: jekyll
-instagram_username: jameswgrant
-linkedin_username: jameswgrant
-# xing_username: jekyll
-# pinterest_username: jekyll
-youtube_username: globalmtb
-# googleplus_username: +jekyll
-# orcid_username: 0000-0000-0000-0000
+github_username:  IonianIronist
+linkedin_username: nemantzia
 
 # Additional icon links
 additional_links:
@@ -38,40 +26,42 @@ additional_links:
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
 
-# Google Analytics and Tag Manager
-# Using more than one of these may cause issues with reporting
-# gtm: "GTM-0000000"
-# gtag: "UA-00000000-0"
-# google_analytics: "UA-00000000-0"
-
 # About Section
-# about_title: About Me
+about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
-
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+  Hi, I'm an software developer, currently studying Informatics at [Ionian University](https://di.ionio.gr/) and working as a fullstack developer at (epipla.com)[https://www.epipla.com/].
 
 content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: Super awesome project
-        link: github.com/sproogen
+        title: Fieldstalker
+        link: leuteris99/field-stalker-public 
         # link_text: Project Website
-        additional_links:
-          - title:  sproogen/modern-resume-theme
-            icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
+        #additional_links:
+        #  - title:  sproogen/modern-resume-theme
+        #    icon: fab fa-github
+        #    url: github.com/sproogen/modern-resume-theme
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+          An agriculture environment monitoring prototype app
         description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
-
+          This was a project developed for the course "Smart Environments and Applications", which is meant to be
+          used for monitoring variables such as humidity, temperature, and light intensity through a WSN
+          deployed in a cropland. In this project I developed the network logic for data gathering, routing and synchronization,
+          as well as parsing the data and forwarding it to a remote server for visualisation.
+      - layout: top-middle
+        title: Recognition of epidemic cases in social web texts
+        link: https://link.springer.com/chapter/10.1007/978-3-030-79157-5_36a
+        description: |
+          I co-wrote the paper titled “Recognition of epidemic cases in social web texts”, which has been
+          presented in Mining Humanistic Data Workshop 2021. For this project we applied ML models on
+          social media text towards the detection of possible Covid19 cases.
+      
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
