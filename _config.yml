@@ -30,7 +30,7 @@ additional_links:
 about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, I'm an software developer, currently studying Informatics at [Ionian University](https://di.ionio.gr/) and working as a fullstack developer at [epipla.com](https://www.epipla.com/).
+  Hi, I'm a software developer, currently studying Informatics at [Ionian University](https://di.ionio.gr/) and working as a fullstack developer at [epipla.com](https://www.epipla.com/).
 
 content:
   - title: Projects # Title for the section
