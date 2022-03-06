@@ -3,3 +3,9 @@
 ---
 
 @import 'modern-resume-theme';
+@import "nord.scss";
+
+.dark {
+    background-color: $nord0;
+    color: $nord5;
+}

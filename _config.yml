@@ -18,10 +18,6 @@ github_username:  IonianIronist
 linkedin_username: nemantzia
 
 # Additional icon links
-additional_links:
-- title: itsgoingto.be
-  icon: fas fa-globe
-  url: https://www.itsgoingto.be
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
@@ -117,6 +113,8 @@ footer_show_references: true
 remote_theme: sproogen/resume-theme
 
 sass:
+  load_paths:
+    - assets
   sass_dir: _sass
   style: compressed
 
