@@ -107,7 +107,7 @@ content:
       - Daily-driving Debian, getting everything done from the terminal
 
       Look at this cool image  
-      ![Trees](/images/landscape-trees.jpg "Trees")
+      ![Trees](images/landscape-trees.jpg "Trees")
 
 # Footer
 footer_show_references: true
